@@ -20,6 +20,9 @@ public class Caja <T>{
     public T obtener(){
         return objeto ;
     }
+    public boolean estaVacia(){
+        return objeto== null ;
+    }
 
     @Override
     public String toString() {
