@@ -8,3 +8,9 @@
 -**Fecha:** 3 de Junio, 2026
 
 **Descripcion:** En esta práctica se implementaron las clases genéricas Caja<T> y Par<K, V> dentro del paquete models. La clase Caja<T> permite almacenar y obtener un dato de cualquier tipo, mientras que la clase Par<K, V> representa una relación entre una clave y un valor. Se realizaron pruebas utilizando tipos de datos String, Integer y Double para demostrar el funcionamiento de los genéricos en Java.
+
+**Evidencia de ejecucion:**
+![alt text](image.png)
+
+**Evidencia del codigo App:**
+![alt text](image-1.png)

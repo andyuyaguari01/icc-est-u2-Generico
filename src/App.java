@@ -8,10 +8,10 @@ public class App {
          Caja<Double> numeroDecimal = new Caja<>( 9.75);
          Caja<Boolean> caja_3 = new Caja<>( false);
          
-            System.out.println( "Caja de texto:" + caja);
-            System.out.println("Caja de entero:" + numeroEntero);
-            System.out.println("Caja de decimal:" + numeroDecimal);
-            System.out.println( " la caja esta vacia " + caja_3);
+            System.out.println( "Caja de texto:" + caja.getObjeto());
+            System.out.println("Caja de entero:" + numeroEntero.getObjeto());
+            System.out.println("Caja de decimal:" + numeroDecimal.getObjeto());
+            System.out.println( " la caja esta vacia " + caja_3.getObjeto());
         Par<Integer, String> estudiante = new Par<>(1, "Juan Pérez");
         Par<String, Integer> edad = new Par<>("Edad", 20);
         Par<String, Double> promedio = new Par<>("Promedio", 8.75);
